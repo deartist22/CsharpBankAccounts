@@ -6,6 +6,11 @@ using System.Threading.Tasks;
 
 namespace CsharpBankAccounts
 {
+    class Accounts
+    {
+        private int id, balance;
+        private string type;
+    }
     class Program
     {
         static void Main(string[] args)
